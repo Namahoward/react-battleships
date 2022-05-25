@@ -1,0 +1,13 @@
+.shipPart{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.ship{
+    display: flex;
+}
+.ship.active .shipPart{
+    background-color: red;
+}
